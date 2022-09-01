@@ -47,6 +47,9 @@ TODO: Use photoshop to put background color in the HQ transparent photo
     width:350px;
     image-rendering: -webkit-optimize-contrast;
     border-radius: 50%;
+    object-fit: cover;
+    width:15em;
+    height: 15em;
 }
 
 .index-icon-container a {
@@ -56,3 +59,14 @@ TODO: Use photoshop to put background color in the HQ transparent photo
 .index-icon-container a:hover {
     color: rgb(0, 138, 180)
 }
+
+#portrait {
+
+}
+
+@media(max-width: 767px) { /* <== You can change this break point as per your  needs */
+    .reverse-columns {
+      flex-direction: column-reverse;
+      display: flex;
+    }
+  }
