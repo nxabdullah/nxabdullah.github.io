@@ -48,8 +48,6 @@ TODO: Use photoshop to put background color in the HQ transparent photo
     image-rendering: -webkit-optimize-contrast;
     border-radius: 50%;
     object-fit: cover;
-    width:15em;
-    height: 15em;
 }
 
 .index-icon-container a {
