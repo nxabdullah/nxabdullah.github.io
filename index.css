@@ -68,3 +68,10 @@ TODO: Use photoshop to put background color in the HQ transparent photo
       display: flex;
     }
   }
+
+@media(max-width: 1080px) {
+    #my-photo {
+        height: 15em;
+        width: 15em;
+    }
+}
